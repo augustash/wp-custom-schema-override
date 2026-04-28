@@ -131,7 +131,7 @@ function wpcso_maybe_hook_frontend(): void {
 		return;
 	}
 
-	// Encode with the same safety flags used in the Drupal module.
+	// Encode with the same safety flags used in the Yoast.
 	$safe_json = wp_json_encode(
 		$decoded,
 		JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT | JSON_UNESCAPED_UNICODE
