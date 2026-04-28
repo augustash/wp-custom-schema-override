@@ -1,0 +1,14 @@
+{
+  "name": "augustash/wp-custom-schema-override",
+  "description": "Provides a custom JSON-LD field in the page meta sidebar that overrides schema structured data output when populated.",
+  "license": "MIT",
+  "homepage": "https://github.com/augustash/wp-custom-schema-override",
+  "support": {
+    "issues": "https://github.com/augustash/wp-custom-schema-override/issues",
+    "source": "https://github.com/augustash/wp-custom-schema-override"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4"
+  }
+}
